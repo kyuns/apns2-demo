@@ -7,7 +7,7 @@
  * curl 7.46(+nghttp2)
  * PHP 5.5.24
  *
- * brew install opensl
+ * brew install openssl
  * brew link openssl --force
  * brew install curl --with-nghttp2 --with-openssl
  * brew link curl --force
