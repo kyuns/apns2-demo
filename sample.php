@@ -1,12 +1,13 @@
 <?php
-/* 
+/*
  * Setup Manual
  * Install
  * ----------------
  * open ssl 1.0.2e
  * curl 7.46(+nghttp2)
  * PHP 5.5.24
- *
+ * brew tap homebrew/php
+ * brew tap homebrew/homebrew-php
  * brew install openssl
  * brew link openssl --force
  * brew install curl --with-nghttp2 --with-openssl
@@ -20,7 +21,7 @@ if(!defined('CURL_HTTP_VERSION_2_0')) exit;
 
 $device_token   = 'Your Device Token';
 $pem_file       = 'Your Pem File';
-//$pem_secret     = 'Password'; 
+//$pem_secret     = 'Password';
 
 //App Bundle Name
 $apns_topic     = 'Your App Bundle Name';
